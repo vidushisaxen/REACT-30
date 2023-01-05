@@ -1,15 +1,35 @@
-import React from 'react'
+import {React ,useState, useEffect} from 'react'
 import './Clock.css'
 
 function Clock() {
+    const [seconds, setseconds] = useState(0);
+    const [minutes, setminutes] = useState(0);
+    const [hours, sethours] = useState(0);
+
+    useEffect(()=>{
+       givetime()
+       },[])
+
+       function givetime(){
+        var date= new Date();
+        const sec = date.getSeconds();
+        const min = date.getMinutes();
+        const hours = date.getHours();
+
+        setseconds(sec*6 );
+        setminutes(min*6);
+        sethours(30*hours + min/2);
+       }
+       setInterval(givetime , 1000)
+    
   return (
     <>
     <div className="clock">
         <div className="outercircle">
            <div className="innercircle">
-                <div className=" hand hour_hand"></div>
-                <div className="hand minute_hand"></div>
-                <div className="hand second_hand"></div>
+                <div className=" hand hour_hand" style={{transform:`rotate(${hours}deg)` }}></div>
+                <div className="hand minute_hand" style={{transform:`rotate(${minutes}deg)` }}></div>
+                <div className="hand second_hand" style={{transform:`rotate(${seconds}deg)` }}></div>
 
 
                 <div className="number one">

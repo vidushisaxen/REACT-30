@@ -12,7 +12,7 @@ function App() {
       <Routes>
       <Route path="/" element={[<Hero/>]}/>
       <Route path="/Music" element={[<Music/>]}/>
-      <Route path="/Clock" element={[<Clock/>]}/>
+      <Route path="/Clock"element={[<Clock/>]}/>
         </Routes>
         </BrowserRouter>
     </>
