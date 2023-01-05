@@ -1,0 +1,148 @@
+.clock{
+    height: 100vh;
+    width: 100vw;
+    background-color: #e3e1e1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.outercircle{
+    height: 400px;
+    width: 400px;
+    border: 10px solid black;
+    background-color: #EDEDED;
+    border-radius: 50%;
+    position: relative;
+}
+.innercircle{
+    height: 380px;
+    width: 380px;
+    border: 10px solid white;
+    border-radius: 50%;
+}
+.clock::after {
+  content: '';
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  z-index: 11;
+}
+.clock .number {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  /* transform: rotate(var(--roation)); */
+ font-size: 1.5rem;
+ padding: 18px;
+}
+
+.number::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 5px;
+  height: 15px;
+  background-color: black;
+}
+.one{
+    position: relative;
+    left: -15px;
+    top: 20px;
+    transform: rotate(30deg);
+}
+.two{
+    position: relative;
+    left: -45px;
+    top: -5px;
+   transform: rotate(60deg);
+}
+.three{
+    position: relative;
+    left: -50px;
+    top: -30px;
+    transform: rotate(90deg);
+}
+.four{
+    position: relative;
+    left: -35px;
+    top: -50px;
+    transform: rotate(120deg);
+}
+.five{
+    position: relative;
+    top: -60px;
+    left: -10px;
+    transform: rotate(150deg);
+}
+.six{
+    position: relative;
+    top: -50px;
+    left: -10px;
+    transform: rotate(180deg);
+}
+.seven{
+    position: relative;
+    top: -35px;
+    transform: rotate(210deg);
+}
+.eight{
+    position: relative;
+    top: -20px;
+    transform: rotate(240deg);
+}
+.nine{
+    position: relative;
+    top: -10px;
+    transform: rotate(270deg);
+}
+.ten{
+    position: relative;
+    left: -3px;
+    transform: rotate(300deg);
+}
+.eleven{
+    position: relative;
+    left: -2px;
+    transform: rotate(330deg);
+}
+.twelve{
+    position: relative;
+    left: -10px;
+}
+.hand {
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    border: 1px solid white;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background-color: black;
+    transform-origin: bottom;
+    z-index: 10;
+  }
+   .second_hand{
+    width: 2px;
+    height: 40%;
+    background-color: red;
+  }
+  .minute_hand{
+    width: 7px;
+    height: 30%;
+    background-color: black;
+  }
+  .hour_hand{
+    width: 10px;
+    height: 20%;
+    background-color: black;
+  }
