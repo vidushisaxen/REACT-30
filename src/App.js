@@ -3,6 +3,7 @@ import './App.css';
 import Hero from './Main/Hero';
 import Music from './Main/Music';
 import Clock from './Main/Clock';
+import Editpictures from './Main/Editpictures';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Route path="/" element={[<Hero/>]}/>
       <Route path="/Music" element={[<Music/>]}/>
       <Route path="/Clock"element={[<Clock/>]}/>
+      <Route path="/Editpictures"element={[<Editpictures/>]}/>
         </Routes>
         </BrowserRouter>
     </>

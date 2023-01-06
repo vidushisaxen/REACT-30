@@ -17,6 +17,7 @@ function Hero() {
       <ul>
         <Link to="/Music" className='link'><li>Music</li></Link>
         <Link to="/Clock" className='link'><li>Clock</li></Link>
+        <Link to="/Editpictures" className='link'><li>Edit pictures</li></Link>
       </ul>
     </div>
     </div>
