@@ -2,6 +2,7 @@ body{
     height: 100vh;
     width: 100vw;
     background-color: #0A2647;
+    overflow: hidden;
 }
 .edit h1{
     color: white;
@@ -13,15 +14,30 @@ body{
 .edit label{
     color: white;
     font-size: 20px;
+    margin-left: 40%;
 }
 .edit input{
-    /* margin-left: 30px; */
+    margin-left: 20px;
+}
+.editmain{
+    display: flex;
+    justify-content: center;
 }
 .editmain label{
     color: white;
     font-size: 20px;
-    /* margin-left: 30px; */
+    margin-left: 40px;
 }
 .editmain input{
-   /* margin-left: 30px; */
+   margin-left: 20px;
+}
+.editimg{
+    display: flex;
+    justify-content: center;
+}
+.editimg img{
+    height: 50vh;
+    width: 40vw;
+    margin-top: 40px;
+    border: 3px solid white;
 }
