@@ -1,43 +1,49 @@
 body{
     height: 100vh;
     width: 100vw;
-    background-color: #0A2647;
+    background-image: url("https://wallpaperaccess.com/full/221430.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     overflow: hidden;
 }
-.edit h1{
+.edit{
+    display: flex;
+    justify-content: space-around;
+    
+}
+ h1{
     color: white;
     font-weight: 400;
     font-size: 50px;
-    margin-left: 35%;
+   margin-left: 37%;
+   margin-top: 10px;
+}
+.left{
+    height: 70vh;
+    width: 45vw;
+    display: flex;
+    flex-direction: column;
+}
+.left label{
+    color: white;
+    font-size: 25px;
     margin-top: 10px;
 }
-.edit label{
-    color: white;
-    font-size: 20px;
-    margin-left: 40%;
-}
-.edit input{
-    margin-left: 20px;
-}
-.editmain{
-    display: flex;
-    justify-content: center;
-}
-.editmain label{
-    color: white;
-    font-size: 20px;
-    margin-left: 40px;
-}
-.editmain input{
+.left input{
+   width: 300px;
    margin-left: 20px;
+   margin-top: 10px;
 }
-.editimg{
+.right{
+    height: 70vh;
+    width:45vw;
     display: flex;
+    align-items: center;
     justify-content: center;
 }
-.editimg img{
-    height: 50vh;
-    width: 40vw;
-    margin-top: 40px;
-    border: 3px solid white;
+.right img{
+    height:55vh ;
+    width: 35vw;
+    border: 5px solid white;
 }
