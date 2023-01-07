@@ -1,6 +1,8 @@
-body{
+.editbody{
     height: 100vh;
     width: 100vw;
+    margin: 0px;
+    padding: 0px;
     background-image: url("https://wallpaperaccess.com/full/221430.jpg");
     background-repeat: no-repeat;
     background-position: center;
@@ -8,11 +10,12 @@ body{
     overflow: hidden;
 }
 .edit{
+    
     display: flex;
     justify-content: space-around;
     
 }
- h1{
+ .editbody h1{
     color: white;
     font-weight: 400;
     font-size: 50px;

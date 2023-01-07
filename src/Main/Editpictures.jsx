@@ -1,15 +1,17 @@
-import React from 'react'
+import {React, useState} from 'react'
 import './Editpictures.css';
 
 function Editpictures() {
+    const [imglink, setimglink] = useState("https://media.istockphoto.com/id/809971888/photo/night-sky-landscape.jpg?b=1&s=170667a&w=0&k=20&c=-1smAP9--twhHyqopksRe3lIORQvO9JaaNWbT1Ra-Is=");
   return (
     <>
+    <div className="editbody">
     <h1>Let's be creative</h1>
     <div className="edit">
         
         <div className="left">
         <label>Image link :</label>
-        <input></input>
+        <input onChange={(event)=>setimglink(event.target.value)}></input>
         <label>Blur :</label>
         <input></input>
         <label>Spacing :</label>
@@ -23,8 +25,9 @@ function Editpictures() {
 
 
         <div className="right">
-        <img src='https://media.istockphoto.com/id/809971888/photo/night-sky-landscape.jpg?b=1&s=170667a&w=0&k=20&c=-1smAP9--twhHyqopksRe3lIORQvO9JaaNWbT1Ra-Is='></img></div> 
+        <img src={imglink} alt="" /></div> 
         
+    </div>
     </div>
     
     </>
