@@ -39,14 +39,24 @@
    margin-top: 10px;
 }
 .right{
-    height: 70vh;
-    width:45vw;
+    height: 65vh;
+    width:40vw;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: var(--base);
+    padding: var(--spacing);
 }
 .right img{
     height:55vh ;
     width: 35vw;
-    border: 5px solid white;
+    filter: blur(var(--blur));
+    border-radius: var(--radius);
+   
+}
+:root{
+    --base:#ffffff;
+    --spacing:10px;
+    --blur:0px;
+    --radius:5px;
 }
