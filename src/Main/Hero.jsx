@@ -18,6 +18,7 @@ function Hero() {
         <Link to="/Music" className='link'><li>Music</li></Link>
         <Link to="/Clock" className='link'><li>Clock</li></Link>
         <Link to="/Editpictures" className='link'><li>Edit pictures</li></Link>
+        <Link to="/Wallpaper" className='link'><li>Wallpaper</li></Link>
       </ul>
     </div>
     </div>
