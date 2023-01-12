@@ -25,11 +25,15 @@ function Wallpaper() {
     <>
     <div className="wall">
       <h1>Backdrops</h1>
-        <input placeholder='Search' onChange={(e)=>{setsearch(e.target.value)}}></input>
+        <input placeholder='Search for the wallpapers' onChange={(e)=>{setsearch(e.target.value)}}></input>
         <button onClick={(()=>{apicall(search)})}>Search</button>
         {state.map((data)=>{return(
           <>
+          <div className="xyz">
+          <div className="wallcard">
           <img src={data.urls.regular}></img>
+          </div>
+          </div>
           </>
         )})}
 

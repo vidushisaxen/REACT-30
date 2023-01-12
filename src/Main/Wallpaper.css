@@ -1,0 +1,56 @@
+.wall h1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 50px;
+    margin-left: 40%;
+    color: white;
+}
+.wall{
+    background-image: url("https://t4.ftcdn.net/jpg/03/49/94/47/360_F_349944779_IAzOliqAP1bkQQKRaAqnozQDQAmD0dp9.jpg");
+    margin: 0px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    margin-top: -35px;
+}
+.wall input{
+    height: 40px;
+    width: 600px;
+    margin-top: 10%;
+    margin-left: 20%;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding-left: 30px;
+}
+.wall button{
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    /* background-color: #47B5FF; */
+    background: linear-gradient(to right, #03001e, #7303c0, #ec38bc, #fdeff9);
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
+.xyz{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.wallcard{
+    height: 400px;
+    width: 200px;
+    margin: 20px;
+    margin-bottom: 20px;
+    border: 2px solid black;
+    
+}
+.wallcard img{
+    height: 400px;
+    width: 200px;
+    
+}
