@@ -5,6 +5,7 @@ import Music from './Main/Music';
 import Clock from './Main/Clock';
 import Editpictures from './Main/Editpictures';
 import Wallpaper from './Main/Wallpaper';
+import Flexgallery from './Main/Flexgallery';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <Route path="/Clock"element={[<Clock/>]}/>
       <Route path="/Editpictures"element={[<Editpictures/>]}/>
       <Route path="/Wallpaper"element={[<Wallpaper/>]}/>
+      <Route path="/flexgallery"element={[<Flexgallery />]}/>
         </Routes>
         </BrowserRouter>
     </>
