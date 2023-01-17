@@ -2,25 +2,6 @@ import React from 'react'
 import './Flex.css'
 
 function Flexgallery() {
-    const [state,setState] = React.useState("panel panel2");
-
-const [state1,setState1] = React.useState("panel panel1");
-
-const [state2,setState2] = React.useState("panel panel3");
-
-const [state3,setState3] = React.useState("panel panel4");
-const panels= document.querySelectorAll('.panels');
-
-function toggleopen(){
-    this.classList.toggle('open');
-}
-function toggleactive(e){
-    
-    if(e.propertyName.includes('flex'));
-    this.classList.toggle('open-active');
-}
-panels.forEach(panel=>panel.addEventListener('click',toggleopen));
-panels.forEach(panel=>panel.addEventListener('transitioned',toggleactive));
 
 
   return (
