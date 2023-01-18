@@ -1,7 +1,11 @@
-import React from 'react'
+import {React,useState} from 'react'
 import './Flex.css'
 
 function Flexgallery() {
+    const [state1, setstate1] = useState("panel panel1");
+    const [state2, setstate2] = useState("panel panel2");
+    const [state3, setstate3] = useState("panel panel3");
+    const [state4, setstate4] = useState("panel panel4");
 
 
   return (
