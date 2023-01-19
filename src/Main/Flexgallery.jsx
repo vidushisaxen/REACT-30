@@ -6,7 +6,29 @@ function Flexgallery() {
     const [state2, setstate2] = useState("panel panel2");
     const [state3, setstate3] = useState("panel panel3");
     const [state4, setstate4] = useState("panel panel4");
-
+    function animate(data)
+    {
+         switch (data) {
+            case 2:
+                setState("panel panel2 outercontainer open")
+                break;
+                case 1:
+                setState1("panel panel1 outercontainer open")
+                break;
+         
+                case 3:
+                setState2("panel panel3 outercontainer open")
+                break;
+         
+                case 4:
+                setState3("panel panel4 outercontainer open")
+                break;
+         
+         
+            default:
+                break;
+         }
+    }
 
   return (
     <>
