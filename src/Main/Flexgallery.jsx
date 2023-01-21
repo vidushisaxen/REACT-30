@@ -10,18 +10,18 @@ function Flexgallery() {
     {
          switch (data) {
             case 2:
-                setState1("panel panel2 outercontainer open")
+                setstate1("panel panel2 outercontainer open")
                 break;
                 case 1:
-                setState2("panel panel1 outercontainer open")
+                setstate2("panel panel1 outercontainer open")
                 break;
          
                 case 3:
-                setState3("panel panel3 outercontainer open")
+                setstate3("panel panel3 outercontainer open")
                 break;
          
                 case 4:
-                setState4("panel panel4 outercontainer open")
+                setstate4("panel panel4 outercontainer open")
                 break;
          
          
