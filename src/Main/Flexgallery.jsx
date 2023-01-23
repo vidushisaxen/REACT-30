@@ -21,7 +21,7 @@ function Flexgallery() {
                 break;
          
                 case 4:
-                setState4("panel panel4 outercontainer open")
+                setstate4("panel panel4 outercontainer open")
                 break;
          
          
