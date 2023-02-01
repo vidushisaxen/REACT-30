@@ -36,7 +36,7 @@ function Flexgallery() {
     <div className="panel panel1">
         <p>Be</p>
         <p>The</p>
-        <p>Change</p>
+        <p>Change.</p>
        
     </div>
     <div className="panel panel2">
