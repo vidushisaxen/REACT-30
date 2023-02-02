@@ -6,6 +6,7 @@ import Clock from './Main/Clock';
 import Editpictures from './Main/Editpictures';
 import Wallpaper from './Main/Wallpaper';
 import Flexgallery from './Main/Flexgallery';
+import Cities from './Main/Cities';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <Route path="/Editpictures"element={[<Editpictures/>]}/>
       <Route path="/Wallpaper"element={[<Wallpaper/>]}/>
       <Route path="/flexgallery"element={[<Flexgallery />]}/>
+      <Route path="/cities"element={[<Cities />]}/>
         </Routes>
         </BrowserRouter>
     </>
