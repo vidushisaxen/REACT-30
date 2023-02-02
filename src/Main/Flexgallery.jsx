@@ -6,22 +6,27 @@ function Flexgallery() {
     const [state2, setstate2] = useState("panel panel2");
     const [state3, setstate3] = useState("panel panel3");
     const [state4, setstate4] = useState("panel panel4");
+    const [state5, setstate5] = useState("panel panel5");
     function animate(data)
     {
          switch (data) {
-            case 2:
-                setstate1("panel panel2 outercontainer open")
+            case 1:
+                setstate1("panel panel1 open-active open")
                 break;
-                case 1:
-                setstate2("panel panel1 outercontainer open")
+                case 2:
+                setstate2("panel panel2 open-active open")
                 break;
          
                 case 3:
-                setstate3("panel panel3 outercontainer open")
+                setstate3("panel panel3 open-active open")
                 break;
          
                 case 4:
-                setstate4("panel panel4 outercontainer open")
+                setstate4("panel panel4 open-active open")
+                break;
+
+                case 5:
+                setstate5("panel panel5 open-active open")
                 break;
          
          
@@ -33,28 +38,28 @@ function Flexgallery() {
   return (
     <>
     <div className="panels">
-    <div className="panel panel1">
+    <div className={state1} onMouseOver={()=>animate(1)} onMouseOut={()=>setstate1("panel panel1")}>
         <p>Be</p>
         <p>The</p>
         <p>Change.</p>
        
     </div>
-    <div className="panel panel2">
+    <div className={state2} onMouseOver={()=>animate(2)} onMouseOut={()=>setstate2("panel panel2")}>
        <p>Believe</p>
        <p>In</p>
        <p>Yourself</p>
     </div>
-    <div className="panel panel3">
+    <div className={state3} onMouseOver={()=>animate(3)} onMouseOut={()=>setstate3("panel panel3")}>
        <p>Change</p>
        <p>Is</p>
        <p>Good</p>
     </div>
-    <div className="panel panel4">
+    <div className={state4} onMouseOver={()=>animate(4)} onMouseOut={()=>setstate4("panel panel4")}>
         <p>Dreams</p>
         <p>Come</p>
        <p>True</p>
     </div>
-    <div className="panel panel5">
+    <div className={state5} onMouseOver={()=>animate(5)} onMouseOut={()=>setstate5("panel panel5")}>
         <p>Focus</p>
        <p>And</p>
        <p>Win</p>
