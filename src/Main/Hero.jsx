@@ -20,7 +20,7 @@ function Hero() {
         <Link to="/Editpictures" className='link'><li>Edit pictures</li></Link>
         <Link to="/Wallpaper" className='link'><li>Backdrops</li></Link>
         <Link to="/flexgallery" className='link'><li>Flex Gallery</li></Link>
-        <Link to="/Cities" className='link'><li>Explore cities</li></Link>
+        <Link to="/Cities" className='link'><li>Search Bar</li></Link>
       </ul>
     </div>
     </div>
