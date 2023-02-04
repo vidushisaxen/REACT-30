@@ -12,11 +12,19 @@
     margin-left: 37%;
 }
 .cities input{
-    height: 50px;
+    height: 40px;
     width: 60%;
     border-radius: 30px;
     border: 2px solid black;
     outline: none;
-    margin-top: 15%;
-    margin-left: 10%;
+    margin-top: 16%;
+    margin-left: 15%;
+}
+.cities button{
+    height: 40px;
+    width: 150px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
 }
