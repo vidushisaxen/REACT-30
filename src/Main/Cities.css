@@ -27,6 +27,8 @@
     border: none;
     outline: none;
     cursor: pointer;
-    background-color: blue;
+    background: linear-gradient(to right, #40e0d0, #ff8c00, #ff0080); 
     color: white;
+    font-size: 20px;
+    font-weight: 700;
 }
