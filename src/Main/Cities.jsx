@@ -1,7 +1,7 @@
 import React from 'react'
 import './Cities.css'
-import React, { useEffect, useState } from 'react'
 import axios from "axios";
+import { useState } from 'react';
 function Search() {
     const[citydata,setData] = useState("");
     const[searchvalue ,setSearchvalue] = useState("");
