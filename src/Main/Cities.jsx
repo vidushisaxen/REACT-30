@@ -8,7 +8,7 @@ function Search() {
     const[recommend , setRecommed] = useState([]);
      async function call()
     {
-        const datafile=   await axios("https://raw.githubusercontent.com/nshntarora/Indian-Cities-JSON/master/cities.json");
+        const datafile=   await axios("");
         setData(datafile.data);
           console.log(citydata)
          
