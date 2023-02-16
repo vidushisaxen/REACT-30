@@ -21,7 +21,7 @@ function Cities() {
     <div className="cities">
        <h1>Explore India</h1>
        <input type="search"></input>
-       <button>Search</button>
+       <button>Explore</button>
     </div>
     </>
   )
