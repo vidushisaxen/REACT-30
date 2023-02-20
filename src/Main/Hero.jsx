@@ -8,7 +8,7 @@ function Hero() {
     <div className="hero">
     <div className="main">
       <div className="nav">
-      <p2>React 30</p2>
+      <p2>React 10</p2>
         <p1>Home</p1>
         <p1>Documentation</p1>
         <p1>About</p1>
@@ -21,6 +21,7 @@ function Hero() {
         <Link to="/Wallpaper" className='link'><li>Backdrops</li></Link>
         <Link to="/flexgallery" className='link'><li>Flex Gallery</li></Link>
         <Link to="/Cities" className='link'><li>Search Bar</li></Link>
+        <Link to="/Stickynav" className='link'><li>Sticky Navbar</li></Link>
       </ul>
     </div>
     </div>

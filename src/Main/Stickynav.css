@@ -1,0 +1,24 @@
+.stick{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(232, 228, 220);
+}
+.stickimg img{
+    width: 100vw;
+    height: 80vh;
+}
+.sticknav{
+    height: 50px;
+    background-color: #ECECEC;
+    margin-top: -7px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.sticknav p1{
+    color: black;
+    font-size: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
