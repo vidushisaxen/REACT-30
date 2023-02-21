@@ -1,5 +1,5 @@
 .stick{
-    height: 210vh;
+    height: 230vh;
     width: 100vw;
     background-color: rgb(232, 228, 220);
 }
@@ -22,13 +22,17 @@
     cursor: pointer;
 }
 .sticktxtbox{
-    height: 100vh;
+    height: 120vh;
     width: 50vw;
     margin-left: 25%;
     margin-top: 5%;
     background-color: white;
     border-radius: 30px;
     
+}
+.sticktxtbox h1{
+    font-weight: 100;
+    margin-top: 40px;
 }
 .sticktxtbox p{
     padding: 20px;
