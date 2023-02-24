@@ -32,8 +32,9 @@ function Stickynav() {
 
         One important aspect of Life is that it keeps going forward. This means nothing is permanent. Hence, there should be a reason to stay in dejection. A happy occasion will come to pass, just like a sad one. Above all, one must be optimistic no matter how bad things get. This is because nothing will stay forever. Every situation, occasion, and event shall pass. This is certainly a beauty of Life.
         <br></br>
-        
+
         <br></br>
+        
         The uncertainty of death is what makes life so precious. No one knows the hour of one’s death. This probably is the most important reason to live life to the fullest.
      </p>
     </div>
