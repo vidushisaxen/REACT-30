@@ -1,7 +1,27 @@
 import React from 'react'
 import './Stickynav.css';
+import { useState } from 'react';
+ 
+
+
+
 
 function Stickynav() {
+ const [fix, setfix] = useState(false);
+
+function fixnav(){
+    if(window.scrollY>=500){
+        setfix(true)
+    }
+    else{
+        setfix(false)
+    }
+}
+
+useEffect(() => {
+  fixnav();
+} )
+
   return (
     <>
     <div className='stick'>
@@ -34,7 +54,7 @@ function Stickynav() {
         <br></br>
 
         <br></br>
-        
+
         The uncertainty of death is what makes life so precious. No one knows the hour of one’s death. This probably is the most important reason to live life to the fullest.
      </p>
     </div>
