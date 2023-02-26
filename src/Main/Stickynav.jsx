@@ -47,6 +47,7 @@ useEffect(() => {
     </div>
     <div className="sticktxtbox">
         <h1>The adventure of living in the path of life.</h1>
+        
      <p> We are born, live our lives, and eventually pass away with time. We are attempting to shape our lives in this way. Everyone's life is different. Some people have a lot of problems in life, while others do not. Those who have never faced adversity in their lives have one perspective on life. Those that struggle in life have a different perspective. Life is frequently described as priceless.
         <br></br><br></br>
 
