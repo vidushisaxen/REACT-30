@@ -10,10 +10,8 @@
     overflow: hidden;
 }
 .edit{
-    
     display: flex;
     justify-content: space-around;
-    
 }
  .editbody h1{
     color: white;
