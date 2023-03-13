@@ -50,7 +50,6 @@
     width: 35vw;
     filter: blur(var(--blur));
     border-radius: var(--radius);
-   
 }
 :root{
     --base:#ffffff;
