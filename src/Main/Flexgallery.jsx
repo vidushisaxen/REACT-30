@@ -69,4 +69,5 @@ function Flexgallery() {
   )
 }
 
+
 export default Flexgallery
