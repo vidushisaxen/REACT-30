@@ -9,7 +9,6 @@ function Flexgallery() {
     const [state5, setstate5] = useState("panel panel5");
     function animate(data)
     {
-      
          switch (data) { 
             case 1:
                 setstate1("panel panel1 open-active open")
