@@ -20,6 +20,7 @@ function Clock() {
         setminutes(min*6);
         sethours(30*hours + min/2);
        }
+       
        setInterval(givetime , 1000)
     
   return (
