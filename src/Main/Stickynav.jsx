@@ -9,25 +9,32 @@ import { useState, useEffect } from 'react';
 function Stickynav() {
  const [fix, setfix] = useState(false);
 
-function fixnav(){
-    if(window.scrollY>=500){
-        setfix(true)
-    }
-    else{
-        setfix(false)
-    }
-}
+// function fixnav(){
+//     if(window.scrollY>=500){
+//         setfix(true)
+//     }
+//     else{
+//         setfix(false)
+//     }
+// }
 
 useEffect(() => {
-  fixnav();
+    const handlescroll=()=>{
+    setfix(window.scrollY >200)
+    }
+    window.addEventListener('scroll',handlescroll);
+    return()=> window.removeEventListener('scroll',handlescroll);
+  
 } )
 
   return (
     <>
-    <div className='stick'>
+   
+        <div>
     <div className="stickimg">
         <img src='https://wallpapershome.com/images/wallpapers/lake-3840x2160-4k-hd-wallpaper-sea-pink-sunset-sunrise-reflection-sky-864.jpg'></img>
     </div>
+    <nav className={`${fix?"stick":""}`}>
     <div className="sticknav">
         <p1>
             Home
@@ -44,7 +51,9 @@ useEffect(() => {
         <p1>
             Maps
         </p1>
-    </div>
+       </div>
+    </nav>
+    
     <div className="sticktxtbox">
         <h1>The adventure of living in the path of life.</h1>
 
