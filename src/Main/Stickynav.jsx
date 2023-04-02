@@ -29,7 +29,6 @@ useEffect(() => {
 
   return (
     <>
-   
         <div>
     <div className="stickimg">
         <img src='https://wallpapershome.com/images/wallpapers/lake-3840x2160-4k-hd-wallpaper-sea-pink-sunset-sunrise-reflection-sky-864.jpg'></img>
