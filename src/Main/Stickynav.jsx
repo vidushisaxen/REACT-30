@@ -26,7 +26,6 @@ useEffect(() => {
     return()=> window.removeEventListener('scroll',handlescroll);
   
 } )
-
   return (
     <>
         <div>
