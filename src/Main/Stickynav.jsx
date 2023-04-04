@@ -17,7 +17,6 @@ function Stickynav() {
 //         setfix(false)
 //     }
 // }
-
 useEffect(() => {
     const handlescroll=()=>{
     setfix(window.scrollY >200)
