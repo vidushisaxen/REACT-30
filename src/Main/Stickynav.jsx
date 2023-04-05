@@ -2,7 +2,6 @@ import React from 'react'
 import './Stickynav.css';
 import { useState, useEffect } from 'react';
  
-
 function Stickynav() {
  const [fix, setfix] = useState(false);
 
