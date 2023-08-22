@@ -11,7 +11,6 @@ function Hero() {
       <p2>React 10</p2>
         <p1>Home</p1>
         <p1>Documentation</p1>
-        <p1>About</p1>
       </div>
       
       <ul>
@@ -20,8 +19,11 @@ function Hero() {
         <Link to="/Editpictures" className='link'><li>Edit pictures</li></Link>
         <Link to="/Wallpaper" className='link'><li>Backdrops</li></Link>
         <Link to="/flexgallery" className='link'><li>Flex Gallery</li></Link>
-        <Link to="/Cities" className='link'><li>Search Bar</li></Link>
+        <Link to="/Cities" className='link'><li>Pomodoro Timer</li></Link>
+        <Link to="/Stickynav" className='link'><li>Slide on Scroll</li></Link>
+        <Link to="/Stickynav" className='link'><li>Canvas</li></Link>
         <Link to="/Stickynav" className='link'><li>Sticky Navbar</li></Link>
+        <Link to="/Stickynav" className='link'><li>News app</li></Link>
       </ul>
     </div>
     </div>
