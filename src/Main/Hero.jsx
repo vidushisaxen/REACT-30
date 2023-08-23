@@ -12,7 +12,8 @@ function Hero() {
         <p1>Home</p1>
         <p1>Documentation</p1>
       </div>
-      
+      <div className='div-box'>
+        <div className='left'>
       <ul>
         <Link to="/Music" className='link'><li>Music</li></Link>
         <Link to="/Clock" className='link'><li>Clock</li></Link>
@@ -25,6 +26,11 @@ function Hero() {
         <Link to="/Stickynav" className='link'><li>Sticky Navbar</li></Link>
         <Link to="/Stickynav" className='link'><li>News app</li></Link>
       </ul>
+      </div>
+      <div className='right'>
+        <img src='https://images.unsplash.com/photo-1692533801336-fb86a60f501f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80'></img>
+      </div>
+      </div>
     </div>
     </div>
     </>
