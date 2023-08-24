@@ -9,6 +9,7 @@ import Flexgallery from './Main/Flexgallery';
 import Cities from './Main/Cities';
 import Stickynav from './Main/Stickynav';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Pomodoro from './Main/Pomodoro';
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
       <Route path="/flexgallery"element={[<Flexgallery />]}/>
       <Route path="/cities"element={[<Cities />]}/>
       <Route path="/Stickynav"element={[<Stickynav/>]}/>
+      <Route path="/Pomodoro"element={[<Pomodoro/>]}/>
         </Routes>
         </BrowserRouter>
     </>
