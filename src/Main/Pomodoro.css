@@ -1,3 +1,9 @@
+:root{
+    --red:#f54e4e;
+    --green:#4aec8c;
+}
+
+
 .pomo_main{
     height: 100%;
     width: 100vw;
@@ -22,20 +28,45 @@ button{
         cursor: pointer;
 
     }
-    button .with-text{
+    button.with-text{
      width: auto;
      background-color: rgba(255,255,255,0.1);
      border-radius: 10px;
      padding: 10px 20px;
      font-size: 1.4rem;
      line-height: 36px;
+     margin-top: 10px;
      /* width: 80px; */
     }
-    button .with-text svg{
+    button.with-text svg{
         width: 36px;
         float: left;
         margin-right: 5px;
+        
     }
     label{
         display: block;
+        margin-bottom: 10px;
+        margin-top: 20px;
+        text-transform: capitalize;
+    }
+    .slider{
+        height: 40px;
+        border: 2px solid var(--red);
+        border-radius: 20px;
+
+    }
+    .thumb{
+        background-color: var(--red);
+        cursor: pointer;
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+    }
+    .slider.green{
+        border: 2px solid var(--green);
+        
+    }
+    .slider.green .thumb{
+        background-color: var(--green);
     }
