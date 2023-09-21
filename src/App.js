@@ -8,8 +8,8 @@ import Wallpaper from './Main/Wallpaper';
 import Flexgallery from './Main/Flexgallery';
 import Cities from './Main/Cities';
 import Stickynav from './Main/Stickynav';
+import Shades from './Main/Shades';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Pomodoro from './Main/Pomodoro';
 
 
 function App() {
@@ -25,7 +25,7 @@ function App() {
       <Route path="/flexgallery"element={[<Flexgallery />]}/>
       <Route path="/cities"element={[<Cities />]}/>
       <Route path="/Stickynav"element={[<Stickynav/>]}/>
-      <Route path="/Pomodoro"element={[<Pomodoro/>]}/>
+      <Route path="/Shades"element={[<Shades/>]}/>
         </Routes>
         </BrowserRouter>
     </>
