@@ -20,7 +20,7 @@ function Hero() {
         <Link to="/Editpictures" className='link'><li>Edit pictures</li></Link>
         <Link to="/Wallpaper" className='link'><li>Backdrops</li></Link>
         <Link to="/flexgallery" className='link'><li>Flex Gallery</li></Link>
-        <Link to="/shades" className='link'><li>Shades</li></Link>
+        {/* <Link to="/shades" className='link'><li>Shades</li></Link> */}
         {/* <Link to="/Stickynav" className='link'><li>Slide on Scroll</li></Link>
         <Link to="/Stickynav" className='link'><li>Canvas</li></Link>
         <Link to="/Stickynav" className='link'><li>Sticky Navbar</li></Link>
