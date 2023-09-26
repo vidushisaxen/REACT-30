@@ -11,7 +11,6 @@ import Stickynav from './Main/Stickynav';
 // import Shades from './Main/Shades';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-
 function App() {
   return (
     <>
